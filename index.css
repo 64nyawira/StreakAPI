@@ -1,0 +1,205 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+}
+
+.design{
+    background-color: #fe704c;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 20px;
+    font-weight: bold;
+
+    
+}
+
+h1{
+    
+}
+
+img{
+    height: 100%;
+    margin-left: 10%;
+}
+
+.habit button{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: #fe704c ;
+    color: white;
+    border: 2px solid white;
+    margin-top: 10%;
+    margin-left: 3vw;
+    font-size: 30px;
+
+}
+
+.habitForm{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    box-shadow: 3px 2px rgb(170, 162, 162);
+    
+}
+.habitForm input{
+    border: none;
+    
+    color: white;
+    background-color:lightsalmon;
+    height: 5vh;
+
+}
+#submitbttn{
+    background-color: #fe704c;
+    color: white;
+    margin-top: 20px;
+    height: 5vh;
+    border: none;
+}
+
+
+.habitList{
+    padding: 20px;
+   
+    display: flex;
+    height: 20vh;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 5vh;
+              
+}
+
+.habitItem{
+   background-color: aliceblue; 
+    width: 15vw;
+    padding: 20px;
+    border: 2px solid #fe704c;
+    text-align: center;
+    text-decoration: underline;
+    height: 26vh;
+}
+
+#formContainer{
+    
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.formCont{
+    align-items: center;
+    background-color:rgb(202, 219, 235);
+    box-shadow: 2px 2px solid black;
+    padding: 30px;
+    height: 20vh;
+    margin-top: -10vh;
+    width: 40vw;
+
+    
+}
+
+.form{
+    display: flex;
+    flex-direction:column ;
+    gap: 10px;
+}
+
+#habitname,#habitdate{
+   
+    color: black;
+    height: 5vh;
+    border-radius: 5px;
+    border: none;
+    border:2px solid #dd7a61;
+    background-color: aliceblue;
+}
+
+@media screen and (max-width:375px) {
+    .main{
+        width: 100vw;
+    }
+    .design{
+        
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        color: white;
+        gap: 20px;
+        font-weight: bold;
+        align-items: center;
+        text-align: center;
+
+
+
+    }
+    button{
+        font-size: 30px;
+    }
+    img{
+        width: 100vw;
+        height: 70vh;
+        margin-left: 1px;
+    }
+    .habit img{
+        height: 50vh;
+        width:20vw ;
+    }
+    .habitItem img{
+        width: 60%;
+        height: 60%;
+    }
+
+    .habitList{
+        margin-top: 20vh;
+    }
+    .habitItem{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        
+        height: 220px;
+        align-items: center;
+    }
+    .habitItem p{
+        font-size: 30px; 
+    }
+
+    .habitForm{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        
+        box-shadow: 3px 2px rgb(170, 162, 162);
+        
+    }
+    #habitname,#habitdate{
+        width: 90vw;
+        height: 9vh;
+        font-size: 30px;
+      
+        
+     
+    
+    }
+    #submitbttn{
+        background-color:aliceblue;
+        color: black;
+        margin-top: 20px;
+        height: 9vh;
+        border: none;
+        border:2px solid #dd7a61;
+        width: 90vw;
+        font-size: 30px;
+    }
+    
+}
